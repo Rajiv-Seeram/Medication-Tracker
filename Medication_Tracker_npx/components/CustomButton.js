@@ -1,4 +1,5 @@
 import {StyleSheet, Text, TouchableOpacity} from 'react-native';
+import { useFonts } from 'expo-font';
 
 export default function CustomButton({onPress, title}) {
     return (
@@ -21,6 +22,8 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         alignItems: 'center',
-        color: "#F5F5F5"
+        color: "#F5F5F5",
+        fontFamily: "jua",
+        fontSize: 19,
     }
 });
