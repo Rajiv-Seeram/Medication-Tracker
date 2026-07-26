@@ -14,11 +14,12 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: "#606C38",
         borderRadius: 15,
-        paddingLeft: 80,
-        paddingRight: 80,
-        paddingTop: 16,
-        paddingBottom: 16,
-        
+        paddingLeft: 50,
+        paddingRight: 50,
+        paddingTop: 13,
+        paddingBottom: 13,
+        borderBottomColor: "#4d5040",
+        borderBottomWidth: 4,
     },
     buttonText: {
         alignItems: 'center',
